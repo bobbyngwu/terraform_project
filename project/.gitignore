@@ -1,0 +1,30 @@
+#  Local .terraform directories
+**/.terraform/*
+*.terraform/*
+*terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+./*.tfvars
+
+# Keys
+*.pem
+*.pub
+
+# Editor
+.vscode
+
+.env
+__pycache__
+.mypy_cache
+python/build
+
+/*.tfvars
+
+*.exe
+.vs/slnx.sqlite
+.vs/VSWorkspaceState.json
+.vs/terraform_project/v16/.suo
